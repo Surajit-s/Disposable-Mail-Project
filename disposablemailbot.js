@@ -7,7 +7,7 @@ bot.onText(/\/start/, (msg) => {
   const username = msg.from.username || 'not set';
   bot.sendMessage(chatId, `Hello 👋 ${msg.from.first_name}`)
     .then(() => {
-      bot.sendMessage(chatId, `What can this bot do?
+      bot.sendMessage(chatId, `Why Disposablemailbot ?
 
 Our Bot Offers 🎉 
 
